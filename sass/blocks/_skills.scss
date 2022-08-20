@@ -1,0 +1,38 @@
+.skills-section {
+   padding-bottom: 95px;
+}
+
+.skills {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   @media (max-width: 767px) {
+      grid-template-columns:  1fr;
+   }
+}
+
+.skills__photo {
+   margin-left: 93px;
+   @media (max-width: 991px) {
+     margin-left: 30px;
+   }
+   @media (max-width: 767px) {
+      margin: auto;
+   }
+}
+.skills__info {
+   h2 {
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 46px;
+      margin-bottom: 18px;
+   }
+   p {
+      font-size: 18px;
+      line-height: 27px;
+      width: 490px;
+      @media (max-width: 991px) {
+         width: 100%;
+      }
+   }
+}

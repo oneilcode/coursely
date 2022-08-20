@@ -1,0 +1,23 @@
+//base
+
+@import "./base/reset";
+@import "./base/fonts";
+@import "./base/base";
+@import "./base/vars";
+@import "./base/mixins";
+
+
+
+//blocks
+@import "./blocks/header";
+@import "./blocks/main";
+@import "./blocks/benefits";
+@import "./blocks/learn";
+@import "./blocks/skills";
+@import "./blocks/include";
+@import "./blocks/result";
+@import "./blocks/opinion";
+@import "./blocks/questions";
+@import "./blocks/students";
+@import "./blocks/footer";
+@import "./blocks/modal";

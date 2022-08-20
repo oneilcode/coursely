@@ -1,0 +1,25 @@
+.header {
+   padding: 20px 0;
+}
+.container {
+}
+.header__top {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+   align-items: center;
+}
+.logo {
+}
+.enroll {
+   grid-column-start: -1;
+}
+.button {
+   @include button;
+}
+
+@media (max-width: 1140px) {
+.container {
+   padding: 0 25px;
+}
+}

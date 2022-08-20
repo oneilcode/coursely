@@ -1,0 +1,51 @@
+.learn-section {
+   padding: 100px 0;
+   @media (max-width: 767px) {
+      
+     padding: 40px 0;
+    }
+}
+.learn {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   @media (max-width: 767px) {
+      grid-template-columns:  1fr;
+   }
+}
+.learn__photo {
+   margin-right: 93px;
+   @media (max-width: 991px) {
+      margin-right: 30px;
+   }
+
+    @media (max-width: 767px) {
+      
+      margin-bottom: 30px;
+      margin: auto;
+    }
+}
+.learn__info {
+   @media (max-width: 767px) {
+      grid-column: 1/2;
+      grid-row: 1/-1;
+      margin-bottom: 30px;
+      
+    }
+  
+   }
+   h2 {
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 46px;
+      margin-bottom: 18px;
+   }
+   p {
+      font-size: 18px;
+      line-height: 27px;
+      // width: 490px;
+
+      @media (max-width: 991px) {
+         width: 100%;
+      }
+   }
